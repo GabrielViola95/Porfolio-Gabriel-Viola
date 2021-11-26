@@ -373,6 +373,8 @@ body.dark .skills__data{
     margin-right: var(--mb-2);
     color: var(--first-color);
 }
+
+
 .skills__names{
     display: flex;
     align-items: center;
@@ -398,7 +400,7 @@ body.dark .skills__data{
 .skills__node{
     width: 10%;
 }
-.skills__react{
+.skills__php{
     width: 10%;
 }
 
