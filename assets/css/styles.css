@@ -414,16 +414,19 @@ body.dark .skills__data{
 .work__container{
     row-gap: 2rem;
 }
-.work__img{
+.work__img a{
     box-shadow: 0 4px 25px rgba(14,36,49,.15);
     border-radius: .5rem;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
-.work__img img{
+.work__img video{
     transition: 1s;
     cursor: pointer;
+    width: 120%;
 }
-.work__img img:hover{
+.work__img video:hover{
     transform: scale(1.1);
 }
 
